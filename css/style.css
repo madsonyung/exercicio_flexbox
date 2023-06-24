@@ -2,13 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+h1 {
+    color: white;
+}
+.menu-externo {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
 }
 
 .menu-interno {
     background-color: black;
     padding: 4px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .itens-menu {
     padding: 4px;
 }
+
